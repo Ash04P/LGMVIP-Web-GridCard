@@ -1,0 +1,142 @@
+#logo{
+  top:40px;
+  left:50px;
+  bottom: 40px;
+  position:absolute; 
+  height:auto; 
+  color:darkorange;
+  width:auto;
+  overflow:hidden;
+
+  }
+  h1{
+  
+  font-size: 40px;
+  font-weight: bolder;
+  }
+
+  *{
+  padding: 0;
+  margin: 0;
+  }
+  
+  nav{
+  background-color: #c7004c;
+  text-align: right;
+  padding:25px;
+  border-radius: 10px;
+  }
+
+  nav li {
+     display: inline-block;
+     /* margin 0 8px; */
+     margin-right: 20%;
+     padding-top: 1px;
+  }
+  nav li button{
+    color:darkorange;
+    font-weight:bolder;
+    background-color: green;
+    padding:11px;
+    text-decoration: none;
+    font-family: Arial;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:3px solid white ;
+  }
+
+
+
+nav li button:hover{
+
+  background-color: white;
+  color: #00bd56;
+  font-weight: bolder;
+  border-color: darkblue;
+  border: 5px solid #c7004c;
+  }
+  
+  #main{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  background-color: #00bd56;
+  border-radius: 10px;
+  }
+
+  .info{
+    max-width: 270px;
+    margin:15px auto;
+    margin-top: 7%;
+    text-align: center;
+    font-family: bold;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,#c7004c,rgb(177,177,120));
+    border: 5px solid #3d6cb9;
+    color: rgb(39,37,37);
+  }
+  .info:hover{
+    transition:all 0.2s ease-in-out;
+    transform:scale(1.1);
+    background: linear-gradient(-45deg, white, whitesmoke);
+    border: 5px solid #3d6cb9;
+    color:#c7004c;
+    cursor:pointer;
+
+  }
+
+  .image {
+   border-radius: 50px;
+   margin-bottom: 25px;
+   border: 3px solid #c7004c;
+  }
+    
+  .name {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    
+  .email {
+    font-family: sans-serif; 
+    font-size: 18px;
+    overflow-wrap: break-word;
+  }
+  
+  @media screen and (max-width: 600px) {
+   #logo{
+    font-size: 35px;
+    margin-left: -9%;
+  }
+
+  .button{
+    margin-left: 50%;
+
+  }
+}
+
+    #load{
+    
+    margin-top: 50%;
+    margin: 0 auto;
+    }
+    
+  .loader {
+   border: 16px solid #00bd56; 
+   border-top: 16px solid #c7004c; 
+   animation: spin 2s linear infinite; 
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+   margin-top: 50%;
+  }
+    
+  @keyframes spin{
+    0%{ transform: rotate(0deg); } 
+    100%{transform: rotate(360deg); }
+    
+    }
